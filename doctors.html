@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Doctors - Medical Clinic</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-hospital"></i> Medical Clinic
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownHome" role="button" data-bs-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                                <li><a class="dropdown-item" href="index-2.html">Home 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown">About</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown2" role="button" data-bs-toggle="dropdown">Departments</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="departments.html">All Departments</a></li>
+                                <li><a class="dropdown-item" href="department-details.html">Cardiology</a></li>
+                                <li><a class="dropdown-item" href="neurology-details.html">Neurology</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="dropdown3" role="button" data-bs-toggle="dropdown">Doctors</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="doctors.html">All Doctors</a></li>
+                                <li><a class="dropdown-item" href="doctor-profile.html">Doctor Profiles</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown4" role="button" data-bs-toggle="dropdown">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                                <li><a class="dropdown-item" href="service-details.html">Service Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown5" role="button" data-bs-toggle="dropdown">Appointments</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="appointments.html">Book Appointment</a></li>
+                                <li><a class="dropdown-item" href="appointments.html">View Appointments</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown6" role="button" data-bs-toggle="dropdown">Gallery</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="gallery.html">Photo Gallery</a></li>
+                                <li><a class="dropdown-item" href="gallery.html">Video Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown7" role="button" data-bs-toggle="dropdown">Support</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown8" role="button" data-bs-toggle="dropdown">Account</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown9" role="button" data-bs-toggle="dropdown">More</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about.html">About</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="container py-5">
+            <div class="section-title">
+                <h1>Our Expert Doctors</h1>
+                <p>Meet our team of highly qualified and experienced medical professionals</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card doctor-card">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&h=400&fit=crop&crop=faces,center" alt="Dr. John Smith" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3>Dr. John Smith</h3>
+                            <p class="text-muted">Cardiologist</p>
+                            <p class="card-text">15+ years of experience in cardiovascular medicine and cardiac surgery.</p>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card doctor-card">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=400&fit=crop&crop=faces,center" alt="Dr. Sarah Johnson" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3>Dr. Sarah Johnson</h3>
+                            <p class="text-muted">Neurologist</p>
+                            <p class="card-text">Expert in neurological disorders with specialization in brain health.</p>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card doctor-card">
+                        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=400&fit=crop&crop=faces,center" alt="Dr. Michael Brown" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3>Dr. Michael Brown</h3>
+                            <p class="text-muted">Pediatrician</p>
+                            <p class="card-text">Dedicated to providing compassionate care for children and adolescents.</p>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card doctor-card">
+                        <img src="https://images.unsplash.com/photo-1594824476968-48df8a5ad4e3?w=500&h=400&fit=crop&crop=faces,center" alt="Dr. Emily Davis" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3>Dr. Emily Davis</h3>
+                            <p class="text-muted">Orthopedic Surgeon</p>
+                            <p class="card-text">Specialized in bone, joint, and muscle treatments and surgeries.</p>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card doctor-card">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&h=400&fit=crop&crop=faces,center" alt="Dr. Robert Wilson" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3>Dr. Robert Wilson</h3>
+                            <p class="text-muted">Dermatologist</p>
+                            <p class="card-text">Expert in skin care and treatment of various dermatological conditions.</p>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card doctor-card">
+                        <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=500&h=400&fit=crop&crop=faces,center" alt="Dr. Lisa Anderson" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3>Dr. Lisa Anderson</h3>
+                            <p class="text-muted">Emergency Medicine</p>
+                            <p class="card-text">24/7 emergency care specialist with rapid response expertise.</p>
+                            <a href="doctor-profile.html" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Medical Clinic is committed to providing exceptional healthcare services with a focus on patient care and medical excellence.</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="departments.html">Departments</a>
+                    <a href="doctors.html">Doctors</a>
+                    <a href="services.html">Services</a>
+                    <a href="appointments.html">Appointments</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">123 Medical Street, Health City, HC 12345</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+1234567890">+1 234 567 890</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@medicalclinic.com">info@medicalclinic.com</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+                    <p>Saturday: 9:00 AM - 5:00 PM</p>
+                    <p>Sunday: 10:00 AM - 4:00 PM</p>
+                    <p>Emergency: 24/7</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Medical Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
